@@ -1,0 +1,63 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-color: black;
+    
+    
+      }
+    
+.frist-element {
+     height: 375px;
+    display: flex;
+     text-align: center;
+     align-items: center;
+      position: relative;
+     border: 2px solid red;
+}
+.img-element {
+    background-image: url("867687-full-screen-photos.jpg");
+     background-size: cover;
+     height: 681px;
+      width: 453px;
+      margin-left: -12%;
+      margin-top: 74%;
+      
+     
+}
+
+
+
+    
+#showImageBtn {
+    background-color: aqua;
+    color: black;
+    border: 1px solid rgb(255, 0, 0);
+     transition:  margin-right 2s ease-in-out .5s;;
+    position: absolute;
+  
+}
+#showImageBtn:hover{
+background-color: rgb(55, 255, 0);
+transform: rotate(360deg);
+}
+#showImageBtn:active {
+    background-color: red;
+
+}
+audio {
+    background-color: red;
+    opacity: 2px;
+    width: 116px;
+    height: 30px;
+    margin-top: 38%;
+    margin-left: 16%;
+    opacity: 0%;
+}
+
+
+
